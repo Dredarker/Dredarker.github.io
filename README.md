@@ -1,2 +1,1 @@
-# Sigma Projects
-Bruh what you doing
+In Developing
