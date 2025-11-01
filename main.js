@@ -4,7 +4,9 @@ if (counter == null) {
   localStorage.setItem("counter", counter);
 };
 
-function upCount() {
+function upCount(id) {
+  id = document.getElementById(id);
   counter++;
   localStorage.setItem("counter", counter);
+  id.textContext = `Count: ${counter}`;
 }
