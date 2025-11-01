@@ -1,9 +1,10 @@
 * {
   font-family: arial;
+  text-align: center;
 }
 div {
   display: block;
 }
-#title {
-  text-align: center
+h1 {
+  text-align: center;
 }
