@@ -4,3 +4,6 @@
 div {
   display: block;
 }
+#title {
+  text-align: center
+}
