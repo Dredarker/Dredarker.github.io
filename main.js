@@ -1,12 +1,5 @@
-let counter = localStorage.getItem("counter");
-if (counter == null) {
-  counter = 0;
-  localStorage.setItem("counter", counter);
-};
-
-function upCount(id) {
-  id = document.getElementById(id);
-  counter++;
-  localStorage.setItem("counter", counter);
-  id.textContext = `Count: ${counter}`;
-}
+i = 0;
+setInterval(() => {
+    i += 0.1;
+    document.body.style["background-position-x"] = `${i}px`;
+}, 0);
