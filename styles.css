@@ -9,3 +9,8 @@ div {
 h1 {
   text-align: center;
 }
+
+.game {
+  width: 128px;
+  height: 128px;
+}
