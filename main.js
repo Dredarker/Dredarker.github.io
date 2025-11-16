@@ -2,7 +2,7 @@ i = 0;
 setInterval(() => {
     i += 1;
     document.body.style["background-position-x"] = `${i}px`;
-}, 1000);
+}, 65);
 
 function pressKeyToRun(runCode, key) {
     function runCode2() {
