@@ -15,7 +15,7 @@ function pressKeyToRun(runCode, key) {
 };
 
 TMPcode = () => {
-    
+    alert("Нету посхалки :(")
 };
 
 pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {pressKeyToRun(() => {TMPcode()}, "a")}, "b")}, "ArrowRight")}, "ArrowLeft")}, "ArrowRight")}, "ArrowLeft")}, "ArrowDown")}, "ArrowDown")}, "ArrowUp")}, "ArrowUp");
