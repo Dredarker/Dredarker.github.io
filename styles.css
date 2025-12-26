@@ -17,7 +17,8 @@ h1 {
 }
 
 .inline {
-    display: inline-block;
-    background: #ffffffaa;
-    border: #aaaaaa55 8px outset;
+  padding: 16px;
+  display: inline-block;
+  background: #ffffffaa;
+  border: #aaaaaa55 8px outset;
 }
