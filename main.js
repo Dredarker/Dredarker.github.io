@@ -5,8 +5,9 @@ setInterval(() => {
 }, 65);
 
 fetch("https://raw.githubusercontent.com/Dredarker/Dredarker.github.io/refs/heads/main/news.txt")
-.then(result => result.text())
-.then(body => document.querySelector("body > div > div:nth-child(2) > i").outerHTML = body)
+    .then(result => result.text())
+    .then(body => document.querySelector("body > div > div:nth-child(2) > i").outerHTML = body)
+    .catch(err => document.querySelector("body > div > div:nth-child(2) > i").innerHTML = `${err}>`);
 
 
 
