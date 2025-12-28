@@ -6,7 +6,7 @@ setInterval(() => {
 
 fetch("https://raw.githubusercontent.com/Dredarker/Dredarker.github.io/refs/heads/main/news.txt")
 .then(result => result.text())
-.then(body => document.querySelector("body > div > div:nth-child(2) > p").outerHTML = body)
+.then(body => document.querySelector("body > div > div:nth-child(2) > i").outerHTML = body)
 
 
 
